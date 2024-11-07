@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of Forensic Psychology</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="logo-container">
+        <img src="images/log.webp" alt="Platform Logo" class="logo">
+        <span class="logo-text">Forensic Psychology</span>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="category.html">Courses</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="dashboard.html">Learner Dashboard</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h1>Welcome to our Forensic Studies</h1>
+</div>
+
+<div class="main-content">
+    <div class="chapter-list">
+        <h2>Chapters</h2>
+        <ul>
+            <li>
+                <div class="chapter-item" onclick="toggleChapter(0)">Chapter 1: Understand rapings</div>
+                <div class="chapter-display" id="chapterDisplay0" style="display: none;">
+                    <div class="chapter-container">
+                        <img id="chapterImage0" src="images/rape.png" alt="Chapter 1 Content">
+                        <div class="navigation-buttons">
+                            <button onclick="prevSlide()">Previous</button>
+                            <button onclick="nextSlide()">Next</button>
+                            <button onclick="toggleFullScreen()">Fullscreen</button>
+                            <button onclick="closeChapter()">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-item" onclick="toggleChapter(1)">Chapter 2: why childred and women are likely victims or Rapings</div>
+                <div class="chapter-display" id="chapterDisplay1" style="display: none;">
+                    <div class="chapter-container">
+                        <img id="chapterImage1" src="images/rape.png" alt="Chapter 2 Content">
+                        <div class="navigation-buttons">
+                            <button onclick="prevSlide()">Previous</button>
+                            <button onclick="nextSlide()">Next</button>
+                            <button onclick="toggleFullScreen()">Fullscreen</button>
+                            <button onclick="closeChapter()">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-item" onclick="toggleChapter(2)">Chapter 3: Reasons people fail to report Rapings</div>
+                <div class="chapter-display" id="chapterDisplay2" style="display: none;">
+                    <div class="chapter-container">
+                        <img id="chapterImage2" src="images/rape.png" alt="Chapter 3 Content">
+                        <div class="navigation-buttons">
+                            <button onclick="prevSlide()">Previous</button>
+                            <button onclick="nextSlide()">Next</button>
+                            <button onclick="toggleFullScreen()">Fullscreen</button>
+                            <button onclick="closeChapter()">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="chapter-item" onclick="toggleChapter(2)">Chapter 4: where the victim can get help</div>
+                <div class="chapter-display" id="chapterDisplay2" style="display: none;">
+                    <div class="chapter-container">
+                        <img id="chapterImage2" src="images/rape.png" alt="Chapter 3 Content">
+                        <div class="navigation-buttons">
+                            <button onclick="prevSlide()">Previous</button>
+                            <button onclick="nextSlide()">Next</button>
+                            <button onclick="toggleFullScreen()">Fullscreen</button>
+                            <button onclick="closeChapter()">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Foundation of Forensic Psychology | <a href="#">Privacy Policy</a></p>
+</footer>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
